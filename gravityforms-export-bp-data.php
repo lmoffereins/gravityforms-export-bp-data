@@ -125,21 +125,21 @@ final class GravityForms_Export_BP_Data {
 	 * @uses load_plugin_textdomain() To load the textdomain
 	 */
 	public function load_textdomain() {
-	
+
 		// Traditional WordPress plugin locale filter
 		$locale        = apply_filters( 'plugin_locale', get_locale(), $this->domain );
 		$mofile        = sprintf( '%1$s-%2$s.mo', $this->domain, $locale );
-	
+
 		// Setup paths to current locale file
 		$mofile_local  = $this->lang_dir . $mofile;
 		$mofile_global = WP_LANG_DIR . '/gravityforms-export-bp-data/' . $mofile;
-	
+
 		// Look in global /wp-content/languages/gravityforms-export-bp-data folder
 		load_textdomain( $this->domain, $mofile_global );
-	
+
 		// Look in local /wp-content/plugins/gravityforms-export-bp-data/languages/ folder
 		load_textdomain( $this->domain, $mofile_local );
-	
+
 		// Look in global /wp-content/languages/plugins/
 		load_plugin_textdomain( $this->domain );
 	}
@@ -238,7 +238,7 @@ final class GravityForms_Export_BP_Data {
 		if ( ! $user_id || ! get_user_by( 'id', $user_id ) )
 			return $value;
 
-		// Check the field identifier
+		// Check the field
 		switch ( $field ) {
 
 			// Member Types
