@@ -11,7 +11,7 @@
  * Plugin Name:       Gravity Forms Export BP Data
  * Description:       Add BuddyPress user data to Gravityforms entry exports
  * Plugin URI:        https://github.com/lmoffereins/gravityforms-export-bp-data/
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Laurens Offereins
  * Author URI:        https://github.com/lmoffereins/
  * Text Domain:       gravityforms-export-bp-data
@@ -69,7 +69,7 @@ final class GravityForms_Export_BP_Data {
 
 		/** Versions **********************************************************/
 
-		$this->version    = '1.0.0';
+		$this->version    = '1.0.1';
 
 		/** Paths *************************************************************/
 
