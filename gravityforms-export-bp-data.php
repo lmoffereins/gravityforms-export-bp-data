@@ -181,7 +181,7 @@ final class GravityForms_Export_BP_Data {
 					$form['fields'][] = array(
 						'id'    => 'bp-xprofile.' . $field->id,
 						/* translators: 1. Pofile field name, 2. Profile field group name */
-						'label' => sprintf( __( 'Profile: %1$s (%2$s)', 'gravityforms-export-bp-data' ), $field->name, $field_group->name )
+						'label' => sprintf( __( 'Profile: %2$s/%1$s', 'gravityforms-export-bp-data' ), $field->name, $field_group->name )
 					);
 				}
 			}
