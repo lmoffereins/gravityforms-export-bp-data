@@ -96,7 +96,7 @@ final class GravityForms_Export_BP_Data {
 	private function setup_actions() {
 
 		// Load textdomain
-		add_action( 'plugins_loaded', array( $this, 'load_textdomain' ) );
+		add_action( 'plugins_loaded', array( $this, 'load_textdomain' ), 20 );
 
 		// Add export entry fields
 		add_filter( 'gform_export_fields', array( $this, 'entry_export_fields' ) );
@@ -119,8 +119,6 @@ final class GravityForms_Export_BP_Data {
 	 * @since 1.0.0
 	 *
 	 * @uses apply_filters() Calls 'plugin_locale' with {@link get_locale()} value
-	 * @uses load_textdomain() To load the textdomain
-	 * @uses load_plugin_textdomain() To load the textdomain
 	 */
 	public function load_textdomain() {
 
@@ -304,7 +302,7 @@ function gravityforms_export_bp_data() {
 	return GravityForms_Export_BP_Data::instance();
 }
 
-// Initiate on 'bp_init'
-add_action( 'bp_init', 'gravityforms_export_bp_data' );
+// Initiate on 'bp_loaded' when plugins are loaded
+add_action( 'bp_loaded', 'gravityforms_export_bp_data' );
 
 endif; // class_exists
