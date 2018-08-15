@@ -35,8 +35,6 @@ final class GravityForms_Export_BP_Data {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @uses GravityForms_Export_BP_Data::setup_globals()
-	 * @uses GravityForms_Export_BP_Data::setup_actions()
 	 * @return The single GravityForms_Export_BP_Data
 	 */
 	public static function instance() {
@@ -148,11 +146,6 @@ final class GravityForms_Export_BP_Data {
 	 * Add BuddyPress data items to the list exportable entry data
 	 *
 	 * @since 1.0.0
-	 *
-	 * @uses bp_is_active()
-	 * @uses bp_get_member_types()
-	 * @uses bp_xprofile_get_groups()
-	 * @uses groups_get_groups()
 	 * 
 	 * @param array $form Form data
 	 * @return array Form data
@@ -216,12 +209,6 @@ final class GravityForms_Export_BP_Data {
 	 * Modify the value for the given export field
 	 *
 	 * @since 1.0.0
-	 *
-	 * @uses get_user_by()
-	 * @uses bp_get_member_type()
-	 * @uses bp_get_member_type_object()
-	 * @uses xprofile_get_field_data()
-	 * @uses groups_get_groups()
 	 * 
 	 * @param mixed $value Export field value
 	 * @param int $form_id Form ID
