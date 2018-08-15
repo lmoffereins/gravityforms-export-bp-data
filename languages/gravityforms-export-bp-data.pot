@@ -1,13 +1,14 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Gravity Forms Export BP Data\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-08-15 14:57+0000\n"
-"PO-Revision-Date: 2018-08-15 14:57+0000\n"
-"Last-Translator: Laurens Offereins <lmoffereins@gmail.com>\n"
-"Language-Team: Nederlands\n"
-"Language: nl_NL\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,36 +16,34 @@ msgstr ""
 
 #: ../../../../src/wp-content/plugins/gravityforms-export-bp-data/gravityforms-export-bp-data.php:163
 msgid "Member Types"
-msgstr "Lidtypen"
+msgstr ""
 
 #. 1. Pofile field name, 2. Profile field group name
 #: ../../../../src/wp-content/plugins/gravityforms-export-bp-data/gravityforms-export-bp-data.php:182
 #, php-format
 msgid "Profile: %2$s/%1$s"
-msgstr "Profiel: %2$s/%1$s"
+msgstr ""
 
 #: ../../../../src/wp-content/plugins/gravityforms-export-bp-data/gravityforms-export-bp-data.php:198
 msgid "User Groups"
-msgstr "Gebruikersgroepen"
+msgstr ""
 
 #. Name of the plugin
 msgid "Gravity Forms Export BP Data"
-msgstr "Gravity Forms Export BP Data"
+msgstr ""
 
 #. Description of the plugin
 msgid "Add BuddyPress user data to Gravityforms entry exports"
 msgstr ""
-"Voeg BuddyPress gebruikersdata toe aan een export van Gravityforms "
-"inzendingen"
 
 #. URI of the plugin
 msgid "https://github.com/lmoffereins/gravityforms-export-bp-data/"
-msgstr "https://github.com/lmoffereins/gravityforms-export-bp-data/"
+msgstr ""
 
 #. Author of the plugin
 msgid "Laurens Offereins"
-msgstr "Laurens Offereins"
+msgstr ""
 
 #. Author URI of the plugin
 msgid "https://github.com/lmoffereins/"
-msgstr "https://github.com/lmoffereins/"
+msgstr ""
