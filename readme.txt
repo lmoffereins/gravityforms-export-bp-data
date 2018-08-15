@@ -4,8 +4,8 @@ Tags: gravityforms, buddypress, export, xprofile, groups, data, user
 Requires at least: 4.0, GF 1.8.7, BP 2.1
 Tested up to: 4.1, GF 1.8.7, BP 2.2
 Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Add a user's BuddyPress data to your Gravity Forms entry exports
 
